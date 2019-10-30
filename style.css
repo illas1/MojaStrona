@@ -1,6 +1,7 @@
 body {
-  background-color: #ebdfdd;
   font-family: 'Cedarville Cursive', Cursive;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#ebdfdd));
+  background-image: linear-gradient(white, #ebdfdd);
 }
 
 .container {
@@ -25,27 +26,86 @@ header {
   position: absolute;
   color: white;
   top: 0;
-  font-size: 12vh;
+  font-size: 14vh;
   font-family: 'Cedarville Cursive';
   top: 40%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
-  text-shadow: 0 0 0.2em #FFC2C2;
+  text-shadow: 0 0 0.1em #FFC2C2;
   text-align: center;
 }
 
 .rectangle > .welcome :first-child {
   position: absolute;
   background-color: white;
-  margin-left: -50vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.zdjecie {
-  width: 50%;
+h4 {
+  font-family: 'Raleway';
+  font-size: 2.5vh;
+  padding: 3vh;
+  text-align: justify;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photo1 {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 25px;
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-size: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-align: justify;
+  text-align-last: center;
+}
+
+h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-align-last: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 body{
-background-color: #ebdfdd;
 font-family: 'Cedarville Cursive', Cursive;
+background-image: linear-gradient(white, #ebdfdd);
 }
 
 .container{
@@ -18,30 +18,66 @@ header{
     height: 95%;
     object-fit: cover; 
     padding: 5%;
-
 }
 
 .welcome{
     position: absolute;
     color: white;
     top: 0;
-    font-size: 12vh;
+    font-size: 14vh;
     font-family:'Cedarville Cursive' ;
     top: 40%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    text-shadow: 0 0 0.2em #FFC2C2;
+    text-shadow: 0 0 0.1em #FFC2C2;
     text-align: center;
 }
 
 .rectangle > .welcome :first-child{
     position: absolute;
     background-color: white;
-    margin-left: -50vh;
     display: flex;
     padding: 10px;
+    box-sizing: border-box;
 }
 
-.zdjecie{
-    width:50%;
+h4{
+    font-family: 'Raleway';
+    font-size: 2.5vh; 
+    padding:3vh; 
+    text-align: justify; 
+    box-sizing: border-box;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.photo1{
+filter: grayscale(100%);
+width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 25px;
+}
+
+h3{
+    font-family:'Raleway';
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: justify; 
+    text-align-last: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align-last: center;
 }
