@@ -1,0 +1,47 @@
+body{
+background-color: #ebdfdd;
+font-family: 'Cedarville Cursive', Cursive;
+}
+
+.container{
+    background-color: white;
+}
+
+header{
+    position: relative;
+    height: 50vh;
+    background-color: white;
+}
+
+.logo{
+    display: block;
+    height: 95%;
+    object-fit: cover; 
+    padding: 5%;
+
+}
+
+.welcome{
+    position: absolute;
+    color: white;
+    top: 0;
+    font-size: 12vh;
+    font-family:'Cedarville Cursive' ;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-shadow: 0 0 0.2em #FFC2C2;
+    text-align: center;
+}
+
+.rectangle > .welcome :first-child{
+    position: absolute;
+    background-color: white;
+    margin-left: -50vh;
+    display: flex;
+    padding: 10px;
+}
+
+.zdjecie{
+    width:50%;
+}
