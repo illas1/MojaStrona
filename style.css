@@ -1,111 +1,109 @@
-body {
-  font-family: 'Cedarville Cursive', Cursive;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#ebdfdd));
-  background-image: linear-gradient(white, #ebdfdd);
+body{
+font-family: 'Cedarville Cursive', Cursive;
+background-image: linear-gradient(white, #ebdfdd);
 }
 
-.container {
-  background-color: white;
+.container{
+    background-color: white;
 }
 
-header {
-  position: relative;
-  height: 50vh;
-  background-color: white;
+
+header{
+    position: relative;
+    height: 50vh;
+    background-color: white;
 }
 
-.logo {
-  display: block;
-  height: 95%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  padding: 5%;
+.logo{
+    display: block;
+    height: 95%;
+    object-fit: cover; 
+    padding: 5%;
+    
 }
 
-.welcome {
-  position: absolute;
-  color: white;
-  top: 0;
-  font-size: 14vh;
-  font-family: 'Cedarville Cursive';
-  top: 40%;
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-  text-shadow: 0 0 0.1em #FFC2C2;
+.welcome{
+    position: absolute;
+    color: white;
+    top: 0;
+    font-size: 14vh;
+    font-family:'Cedarville Cursive' ;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-shadow: 0 0 0.1em #FFC2C2;
+    text-align: center;
+}
+
+.rectangle > .welcome :first-child{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h4{
+    font-family: 'Raleway';
+    font-size: 2.5vh; 
+    padding:3vh; 
+    text-align: justify; 
+    box-sizing: border-box;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+h3{
+    font-family:'Raleway';
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: justify; 
+    text-align-last: center;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
   text-align: center;
+  text-align: justify; 
+  text-align-last: center;
 }
 
-.rectangle > .welcome :first-child {
-  position: absolute;
-  background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
+figcaption
+{
   display: flex;
-  padding: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  text-align: justify; 
+  text-align-last: center;
 }
 
-h4 {
-  font-family: 'Raleway';
-  font-size: 2.5vh;
-  padding: 3vh;
-  text-align: justify;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.photo {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.photo1
+{   
+  filter: grayscale(85%);
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-.photo1 {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+.photo1 img
+{
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 25px;
+	transition: all 0.5s ease-in-out;
 }
 
-h3 {
-  font-family: 'Raleway';
-  font-size: 2vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  text-align: justify;
-  text-align-last: center;
+.photo1:hover img
+{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
 }
-
-h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  text-align-last: center;
-}
-/*# sourceMappingURL=style.css.map */
