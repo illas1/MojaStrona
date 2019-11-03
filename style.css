@@ -26,7 +26,7 @@ header{
     position: absolute;
     color: white;
     top: 0;
-    font-size: 14vh;
+    font-size: 550%;
     font-family:'Cedarville Cursive' ;
     top: 40%;
     left: 50%;
@@ -58,8 +58,6 @@ h2{ /* tytuł */
   font-size: 2em;
 }
 
-
-
 h3{   /*tekst*/
     font-family:'Raleway';
     font-size: 1.25em;
@@ -78,6 +76,7 @@ h4{
   text-align: justify; 
   box-sizing: border-box;
 }
+
 .text h4{
   text-align-last: center;
   height: 10em;
@@ -102,10 +101,9 @@ figcaption
 
 .photo1 img
 {
-  
   filter: grayscale(95%);
   width: 80%;
-	transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .photo1:hover img
