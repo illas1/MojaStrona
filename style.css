@@ -58,6 +58,8 @@ h2{ /* tytuł */
   font-size: 2em;
 }
 
+
+
 h3{   /*tekst*/
     font-family:'Raleway';
     font-size: 1.25em;
@@ -94,7 +96,6 @@ figcaption
 
 .photo1
 {   
-  filter: grayscale(85%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,12 +104,15 @@ figcaption
 
 .photo1 img
 {
+  
+  filter: grayscale(95%);
   width: 80%;
 	transition: all 0.5s ease-in-out;
 }
 
 .photo1:hover img
 {
+  filter: grayscale(0%);
 	-webkit-transform: scale(1.15);
 	-ms-transform: scale(1.15);
 	transform: scale(1.15);
@@ -118,11 +122,59 @@ figcaption
   font-size: 1.3em;
 }
 
+.allphotos {
+  display: flex;
+  justify-content: space-around;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+}
+figure a {
+  display: flex;
+  justify-content: center;
+}
+
+.findme{
+  height: 7em;
+}
+
+.findme h2{
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+.findme a{
+  display: flex;
+  justify-content:space-around;
+  align-items:flex-end;
+  margin: auto;
+}
+
+.social-icon{
+  color: #cfbab6 ;
+  font-size:200%;
+  transition: 0.6s;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icon:hover{
+  color: black;
+}
+
+.links {
+align-items: center;
+}
+
+
+
 .contact{
     position:relative;
-    width:500px;
-    height:2.2em;
-    line-height:2.2em;
+    height:2.5em;
+    line-height:2.5em;
     margin:0 auto;
     font-size:1.5em;
     background-color:#ebdfdd;
@@ -138,7 +190,7 @@ figcaption
   -webkit-animation:move 30s linear infinite; 
 }
 
-.contact > p:hover {
+.contact > p:hover { 
   animation-play-state:paused;
   -webkit-animation-play-state:paused;
 }
