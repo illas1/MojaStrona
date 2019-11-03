@@ -67,7 +67,6 @@ h3{   /*tekst*/
     justify-content: center;
     text-align: center;
     text-align: justify; 
-    text-align-last: center;
     margin-left: 12%; 
     margin-right: 15%;
 }
@@ -79,11 +78,10 @@ h4{
   text-align: justify; 
   box-sizing: border-box;
 }
-
-h5{
-
+.text h4{
+  text-align-last: center;
+  height: 10em;
 }
-
 
 figcaption
 {
@@ -136,7 +134,9 @@ figure a {
 }
 
 .findme{
-  height: 7em;
+  display: flex;
+  height: 10em;
+  align-items: center;
 }
 
 .findme h2{
@@ -144,13 +144,12 @@ figure a {
   display: flex;
   justify-content: center;
   text-align: center;
-  
 }
+
 .findme a{
-  display: flex;
-  justify-content:space-around;
-  align-items:flex-end;
-  margin: auto;
+  display: inline-flex;
+  align-items:center;
+  margin-left: 12%;
 }
 
 .social-icon{
@@ -158,7 +157,8 @@ figure a {
   font-size:200%;
   transition: 0.6s;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  align-items:center;
 }
 
 .social-icon:hover{

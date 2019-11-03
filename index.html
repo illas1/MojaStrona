@@ -12,15 +12,12 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-
 </head>
 
 <body>
-
 <div class="container">
             <nav class="navbar navbar-light bg-white navbar-expand-lg">                
-                <a class="navbar-brand align-bottom elem" href="#"><strong>illaskowska</strong></a>
+                <a class="navbar-brand align-bottom elem" href="#" id=""><strong>illaskowska</strong></a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false">
                         <span class="navbar-toggler-icon"></span> 
@@ -59,7 +56,7 @@
 
             <div class="row"> 
             </br></br>
-                <div class="col-lg-8 my-1 text-center rectangle"> 
+                <div class="col-lg-8 my-1 text-center rectangle" id="me"> 
                     <h2>O mnie</h2>
                     <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Vel doloribus nam eum laboriosam soluta quae cumque nostrum ullam laudantium, 
@@ -68,19 +65,19 @@
                         at eligendi labore libero vitae nihil sunt pariatur error, fuga quos! Rerum 
                         doloribus nesciunt consequatur sit consequuntur nulla saepe.</h4>
                 </div>
-                <div class="photo text-center col-lg-4"><a href="#me"><img style="width: 50%;" src="./img/zdjecie.png"/></a></div>
+                <div class="photo text-center col-lg-4"><a href="#me" ><img style="width: 50%;" src="./img/zdjecie.png"/></a></div>
                 </div>
             </br></br>
 
             <div class="row">
-            <h2 class="col-lg-12 text-center my-2" >Gdzie jest wally?<br></h2>
-            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            <div class="col-lg-12 text-center my-2 title"><h2>Gdzie jest wally?<br></h2></div>
+            <div class="col-lg-12 text"><h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 A dignissimos voluptatum voluptas, facilis rem quis aliquid ab itaque nostrum et autem 
                 illo vero voluptatibus est sint praesentium impedit perspiciatis in? Lorem ipsum dolor sit, 
                 amet consectetur adipisicing elit. Vel doloribus nam eum laboriosam soluta quae cumque nostrum
-                ullam laudantium, illum veniam sequi atque? Commodi officia distinctio quis rem doloremque eum! </br> </h4> 
+                ullam laudantium, illum veniam sequi atque? Commodi officia distinctio quis rem doloremque eum! </br> </h4> </div>
              
-                <div class="row allphotos">
+                <div class="row allphotos" id="photos">
                     
 				<div class="col-sm-6 col-md-3 photo1">
                         <figure>
@@ -135,20 +132,22 @@
             </div>
 
             <div class="row findme">
-            <h2 class="col-lg-4 my-2" >Znajdziesz mnie:</h2>
+            <div class="col-lg-4"><h2 >Znajdziesz mnie:</h2></div>
+            <div class="col-lg-8">
                 <a target="_blank" href="https://www.facebook.com/illaskowska" class="social-icon"><i class="fab fa-facebook"></i></a>           
                 <a target="_blank" href="https://www.instagram.com//illaskowska" class="social-icon"><i class="fab fa-instagram"> </i></a>
                 <a target="_blank" href="https://www.linkedin.com/in/illaskowska" class="social-icon"><i class="fab fa-linkedin"></i></a>
                 <a target="_blank" href="https://www.github.com/illas1" class="social-icon"><i class="fab fa-github-square"> </i></a>
-                <a target="_blank" href="mailto:illaskowska@gmail.com" class="social-icon"><i class="fas fa-envelope-square"> </i></a>
+                <a target="_blank" href="mailto:illaskowska@gmail.com" class="social-icon"><i class="fas fa-envelope-square"> </i></a></div>
             </div>
 
             <div class="row">
-                <div class="col-12 d-flex justify-content-center contact" href="#contact">
+                <div class="col-12 d-flex justify-content-center contact" id="contact">
                     <p>illaskowska@gmail.com</p>
                 </div>
             </div>
 </div>
+
 
 
 
